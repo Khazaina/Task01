@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>VERSION CONTROL SYSTEM</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+    
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+        }
+        .header {
+            padding: 80px;
+            text-align: center;
+            background: grey;
+            color: white;
+        }
+        .header h1 {
+            font-size: 40px;
+        }
+
+        .navbar {
+            overflow: hidden;
+            background-color: #333;
+        }
+        .navbar a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        } 
+        .navbar a.right {
+            float: right;
+        }
+        .navbar a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        .row {
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        }
+        .side {
+            -ms-flex: 30%;
+            flex: 30%;
+            background-color: #f1f1f1;
+            padding: 20px;
+        }
+        .main {
+            -ms-flex: 70%;
+            flex: 70%;
+            background-color: white;
+            padding: 20px;
+        }
+        .fakeimg {
+            background-color: #aaa;
+            width: 100%;
+            padding: 20px;
+        }
+        .footer {
+            padding: 20px;
+            text-align: center;
+            background: #ddd;
+        }
+
+       @media screen and (max-width: 700px) {
+            .row {
+                flex-direction: column;
+            }
+        }
+         @media screen and (max-width: 400px) {
+            .navbar a {
+                float: none;
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+
+
+
+
+      
+    <div class="header jumbotron text-center">
+        <h1>Version Control System
+        </h1>
+        <p>Make group tasks easy</p>
+    </div>
+
+    <div class="navbar">
+        <a href="#">VCS</a>
+       
+    </div>
+<div class="container">
+    <div class="row ">
+   
+<div class="main">
+    <h2>Make GITHUB account</h2>
+    <h5><a href=" https://github.com/join">Click here to sign up on <b>GITHUB</b></a></h5>
+</div>
+<div class="main">
+    <h2>Create new Repository</h2>
+    <div><h1>step 1</h1><br>
+        <h5>click on NEW</h5>
+        <img style=" box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)" height="350px"
+            width="600px" src="images/1.png"></div>
+    <br>
+    <div>
+        <h1>step 2</h1><br>
+        <img style=" box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)"
+            height="350px" width="600px" src="images/2.png">
+    </div>
+</div>
+
+
+        <div class="main">
+            <h2>CONNECTION LOCAL REPOSITORY WITH GITHUB</h2>
+            <h5>open the folder with which you want to connect the git repository and then apply these commands in command-line :<br>
+            1> git init<br>
+            2> git commit -m "first commit" <br>        
+            3> git remote add origin https://github.com/Khazaina/Task01.git<br>
+            4> git branch -M  main<br>
+            5> git push -u origin main</h5><br>
+            <div ><img style=" box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)" height="350px" width="600px" src="images/3.png"></div>
+            <br>
+        </div>
+        <div class="main">
+            <h2>HOW TO COMMIT AGAIN</h2>
+            <h5>
+                1> git add .<br>
+                2> git commit -m "second commit" <br>
+                3> git push </h5><br>
+            <div><img style=" box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)" height="350px" width="600px" src="images/4.png"></div>
+            <br>
+            
+        </div>
+    </div>
+</div>
+
+
+</body>
+
+</html>
